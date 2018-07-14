@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="CustomerBean" class="com.aspire.model.Customer" dependency-check="all">
+<property name="action" value="buy" />
+		
+	</bean>
+
+	<bean id="PersonBean" class="com.aspire.model.Person">
+		<property name="name" value="priya" />
+		<property name="address" value="address ABC" />
+		<property name="age" value="21" />
+	</bean>
+
+</beans>
+

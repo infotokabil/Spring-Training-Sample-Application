@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id = "trianglePoint" class = "com.aspire.model.TrianglePoint">
+		<property name="a" ref="zero"/>
+		<property name="b">
+			<bean class = "com.aspire.model.Point">
+				<property name="x" value = "-20"/>
+				<property name="y" value = "0"/>
+			</bean>
+		</property>
+		<property name="c">
+			<bean class = "com.aspire.model.Point">					 
+				<property name="x" value = "0"/>
+				<property name="y" value = "20"/>
+			</bean>
+		</property>
+	</bean>
+	<bean id = "zero" class = "com.aspire.model.Point">
+		<property name="x" value = "0"/>
+		<property name="y" value = "0"/>
+	</bean>
+	<alias name="trianglePoint" alias="triangle-alias"/>
+</beans>
+
+
+
