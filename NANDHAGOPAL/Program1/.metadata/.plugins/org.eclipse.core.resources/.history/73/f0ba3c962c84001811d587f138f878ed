@@ -1,0 +1,14 @@
+
+public class Student {
+	
+	private String name;
+
+
+	
+	public void print()
+	{
+		System.out.println(name);
+	}
+	
+
+}

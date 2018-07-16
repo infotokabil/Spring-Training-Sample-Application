@@ -1,0 +1,37 @@
+package designpattern;
+
+public class AbstractFactoryMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+abstract class AbstractFactory {
+	public abstract Bank getBank(String bank);
+
+	public abstract Loan getLoan(String loan);
+}
+
+class BankFactory extends AbstractFactory {
+	public Bank getBank(String bank) {
+		if (bank == null) {
+			return null;
+		}
+		if (bank.equalsIgnoreCase("HDFC")) {
+			return new HDFC();
+		}
+	}else if(bank.equalsIgnoreCase("SBI"))
+
+	{
+		return new SBI();
+	}return null;
+	}
+
+	public Loan getLoan(String loan) {  
+	      return null;  
+	   
+	}
+}
