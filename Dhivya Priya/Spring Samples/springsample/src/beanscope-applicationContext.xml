@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+  <!-- ............................................................. -->
+  <!-- constructor injection -->
+      
+  <!--   define the dependency   -->  
+       <bean id="data"  class="com.aspire.springsample.ThirdClass" >  
+       </bean>    
+   
+      
+       <bean id="user"  class="com.aspire.springsample.FirstClass" scope="prototype">  
+    
+   <!--  inject literal values -->
+       <property name="userName" value="Dhivya Priya"></property>   
+   
+   <!-- injecting values from properties file  -->
+       <property name="office" value="${office}"></property>
+   <!-- set up a constructor injection -->
+       <constructor-arg ref= "data" />
+       </bean>  
+    </beans>
