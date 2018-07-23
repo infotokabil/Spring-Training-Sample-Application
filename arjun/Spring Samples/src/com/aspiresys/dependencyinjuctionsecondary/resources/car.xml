@@ -1,0 +1,12 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+<bean id ="c" class="com.aspiresys.dependencyinjuctionsecondary.Car">
+<property name="carName" value="Swift"/>
+
+<property name="engine" ref="e"/>
+
+</bean>
+
+</beans>

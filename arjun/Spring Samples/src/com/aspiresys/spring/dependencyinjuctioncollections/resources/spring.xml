@@ -1,0 +1,34 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+
+<bean  id="T" class="com.aspiresys.spring.dependencyinjuctioncollections.Test11" >
+<property name="fruits">
+<list>
+
+<value>Apple</value>
+<value>Oranage</value>
+<value>Mango</value>
+<value>Banana</value>
+
+</list>
+
+
+</property>
+<property name="Cricketers">
+<set>
+
+<value>Raina</value>
+<value>Dhoni</value>
+<value>Kholi</value>
+
+</set>
+
+
+
+
+</property>
+
+</bean>
+
+</beans>
