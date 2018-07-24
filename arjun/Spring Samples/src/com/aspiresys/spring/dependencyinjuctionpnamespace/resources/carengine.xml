@@ -1,0 +1,10 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id ="car" class="com.aspiresys.spring.dependencyinjuctionpnamespace.Car" p:carName="Swift" p:engine-ref="e"/>
+<bean id="e" class="com.aspiresys.spring.dependencyinjuctionpnamespace.Engine" p:modelYear="2018" />
+
+</beans>
