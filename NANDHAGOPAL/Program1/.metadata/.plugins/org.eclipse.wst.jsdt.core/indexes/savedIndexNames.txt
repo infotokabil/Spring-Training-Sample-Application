@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+/home/aspire/Program1/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1553152161.index
+3458839091.index
+790356699.index
+575678002.index
+3978032286.index
+2421169508.index
+1924484980.index
+2630049152.index

@@ -1,0 +1,20 @@
+
+public class Bridge {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 MessageSender textMessageSender=new TextMessageSender();
+	      Message textMessage=new TextMessage(textMessageSender);
+	      textMessage.send();
+	 
+	       MessageSender emailMessageSender=new EmailMessageSender();
+	       Message emailMessage=new TextMessage(emailMessageSender);
+	       emailMessage.send();
+	       
+
+	}
+
+}
+interface MessageSender {
+    public void sendMessage();
+}
