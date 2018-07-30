@@ -1,0 +1,22 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<bean id ="c" class="com.aspiresys.spring.dependencyinjuctionstatic.Car">
+
+</bean>
+<bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+<property name="staticMethod" value="com.aspiresys.spring.dependencyinjuctionstatic.Car.setCarName">
+</property>
+<property name="arguments">
+<list>
+<value> Benz</value>
+
+</list>
+
+</property>
+</bean>
+
+
+</beans>
