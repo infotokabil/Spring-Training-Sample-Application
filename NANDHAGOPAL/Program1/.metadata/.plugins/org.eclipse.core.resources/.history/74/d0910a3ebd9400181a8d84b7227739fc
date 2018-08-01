@@ -1,0 +1,12 @@
+package com.aspire.setter;
+
+import com.aspire.constructor.Address;
+
+public class Customer {
+	
+    private String name;
+	
+    Address address;
+	
+
+}

@@ -1,0 +1,43 @@
+package designpattern;
+
+public class BridgePattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+abstract class Payment
+{
+	public Payment() 
+	{
+		
+	}
+	abstract void MakePayment();
+}
+class NetBanking extends Payment
+{
+	@Override
+	void MakePayment() 
+	{
+		
+	}
+}
+class CardPayment extends Payment
+{
+	@Override
+	void MakePayment() 
+	{
+		
+	}
+}
+
+
+
+interface PaymentMethod
+{
+	void PaymentGateway();
+}
+Class CitiBank extends Payment
+

@@ -1,0 +1,11 @@
+package com.aspire.constructor;
+
+public class Customer {
+	
+	private String name;
+	
+	Private Address address;
+	
+	
+
+}

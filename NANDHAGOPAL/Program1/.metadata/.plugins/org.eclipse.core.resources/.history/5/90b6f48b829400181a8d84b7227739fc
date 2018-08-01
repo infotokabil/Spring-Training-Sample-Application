@@ -1,0 +1,10 @@
+package com.aspire.constructor;
+
+public class Address {
+
+	private String city;
+	
+	private String country;
+	
+	
+}

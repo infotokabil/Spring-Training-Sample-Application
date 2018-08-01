@@ -1,0 +1,11 @@
+package com.aspire.annotation;
+
+import com.aspire.setter.Address;
+
+public class Customer {
+	
+    private String name;
+	
+    Address address;
+
+}
