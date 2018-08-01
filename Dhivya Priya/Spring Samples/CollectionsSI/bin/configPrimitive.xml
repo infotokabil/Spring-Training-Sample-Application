@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+<!--  -->
+	<bean id="ob" class="com.aspire.collectionsObjects.Book">
+		<property name="topicName" value="Java"></property>
+		<property name="bookList">
+			<list>
+				 <ref bean="list1"/>
+				 <ref bean="list2"/>
+			</list>
+		</property>		 
+	</bean>	
+	
+	<bean id="list1" class="com.aspire.collectionsObjects.Topic">		 
+		<property name="name" value="Head First JAVA"></property>
+		<property name="id" value="8978"></property>		 		 
+	</bean>
+	
+	<bean id="list2" class="com.aspire.collectionsObjects.Topic">		 
+		<property name="name" value="Effective Java"></property>
+		<property name="id" value="5712"></property>		 		 
+	</bean>
+</beans>
