@@ -1,0 +1,6 @@
+com\aspiresys\dao\PersonDao.class
+com\aspiresys\config\ApplicationContextConfig.class
+com\aspiresys\config\SpringWebAppInitializer.class
+com\aspiresys\dao\PersonDaoImpl.class
+com\aspiresys\model\Person.class
+com\aspiresys\controller\HomeController.class

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.aspiresys</groupId>
+  <artifactId>Spring7Hibernate</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20180814050840</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>war</extension>
+        <value>0.0.1-SNAPSHOT</value>
+        <updated>20180814050840</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-SNAPSHOT</value>
+        <updated>20180814050840</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
